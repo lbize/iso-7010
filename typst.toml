@@ -1,0 +1,15 @@
+[package]
+name = "iso-7010"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = [
+  "Laurent BIZE <https://github.com/lbize/iso-7010>",
+]
+license = "Apache-2.0"
+description = "Typst library with embeded ISO 7010 safety signs in SVG format."
+repository = "https://github.com/lbize/iso-7010"
+keywords = [ "icon", "svg", "iso","7010","safety","signs" ]
+categories = [ "visualization",  ]
+disciplines = ["communication", "engineering"]
+compiler = "0.13.1"
+exclude = ["extract.py","*.pdf"]
