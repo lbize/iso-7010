@@ -1,0 +1,15 @@
+[package]
+name = "iso-7010"
+version = "0.0.1"
+compiler = "0.13.1"
+repository = "https://github.com/lbize/iso-7010"
+homepage = "https://github.com/lbize/iso-7010"
+entrypoint = "lib.typ"
+exclude = ["extract.py","*.pdf"]
+authors = [
+  "Laurent BIZE <https://github.com/lbize/iso-7010>",
+]
+categories = [ "components" ]
+license = "Apache-2.0"
+description = "Typst library for ISO 7010 safety signs"
+keywords = [ "icon", "iso","7010","safety","signs" ]
